@@ -1,0 +1,66 @@
+body {
+
+}
+
+header {
+    background-color: #2fc0d6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.title {
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 40px;
+    color: #1f1f1f;
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    border-top: 1px solid #1f1f1f;
+    border-bottom: 1px solid #1f1f1f;
+
+}
+
+.search input {
+    margin-left: 20px;
+    min-width: 200px;
+    padding: 5px 10px;
+    
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.search button {
+    margin-left: 10px;
+    margin: 5pxs;
+    padding: 5px 15px;
+    border: 1px solid #2fc0d6;
+    background-color: #2fc0d6;
+    color: #1f1f1f;
+    
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.card-list {
+    justify-content: center;
+    padding: 20px;
+}
+
+.movie-card {
+    /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12), 0 3px 6px rgba(0, 0, 0, 0.24); */
+    margin: 20px;
+    padding: 20px;
+    width: 100%;
+    justify-self: center;
+    /* background-color: white; */
+    border-radius: 0px;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid #1f1f1f;
+    
+    font-family: "Pixelify Sans", sans-serif;
+}
